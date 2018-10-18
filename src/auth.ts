@@ -87,7 +87,7 @@ export class AuthHandler {
       "\n" +
       (resourceType || "").toLowerCase() +
       "\n" +
-      (resourceId || "") +
+      (resourceId || "").toLowerCase() +
       "\n" +
       ((headers["x-ms-date"] as string) || "").toLowerCase() +
       "\n" +
